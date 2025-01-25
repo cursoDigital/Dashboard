@@ -244,10 +244,18 @@ p, b {
     display: flex;
     align-items: center;
     gap: 10px;
+    padding: 10px;
 }
 
 .container .principal main table tbody tr td .cliente-info .info {
+    display: flex;
+    flex-direction: column;
+}
 
+.container .principal main table tbody tr td .cliente-info .info p {
+    line-height: 0;
+    font-size: 10px;
+    color: gray;
 }
 
 .container .principal main table tbody tr td .status {
